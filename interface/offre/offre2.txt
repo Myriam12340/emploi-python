@@ -1,0 +1,14 @@
+titre:Formateur secteur sante
+description:Cherchons formateurs secteur sante avec une expérience et des references
+niveao_d'etude:Bac+5 
+domaine:sante
+nombre_de_poste:2
+region:toulouse
+pays:france
+entreprise:Key Decision
+experience: 5 a 8 ans
+remunerationproposee:2000 Eur
+date_debut:15/12/2021
+duréé:
+typeoffre:emploi
+

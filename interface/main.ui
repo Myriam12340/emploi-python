@@ -1,0 +1,1656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1175</width>
+    <height>732</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1200</width>
+      <height>1200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1200</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+ {
+border-radius:5px;
+background-color:white;
+}
+
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="image" stdset="0">
+     <font/>
+    </property>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>211</width>
+       <height>711</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame
+{
+background:rgb(188, 195, 255);
+
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>292</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:rgb(85, 85, 255);
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>Age :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>360</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:rgb(85, 85, 255);
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>Ville :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>430</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:rgb(85, 85, 255);
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>Domaine :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="nom">
+      <property name="geometry">
+       <rect>
+        <x>57</x>
+        <y>252</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:rgb(0, 0, 127);
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="age">
+      <property name="geometry">
+       <rect>
+        <x>57</x>
+        <y>320</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:rgb(0, 0, 127);
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ville">
+      <property name="geometry">
+       <rect>
+        <x>57</x>
+        <y>390</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:rgb(0, 0, 127);
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_domaine">
+      <property name="geometry">
+       <rect>
+        <x>57</x>
+        <y>460</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:rgb(0, 0, 127);
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>222</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:rgb(85, 85, 255);
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>Nom et Prenom :</string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-20</y>
+        <width>211</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame
+{
+background:rgb(85, 0, 255);
+border-radius:39px;
+}
+
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-30</y>
+         <width>211</width>
+         <height>231</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame
+{
+background:rgba(0,0,0,200.5);
+border-radius:60px;
+
+
+}
+
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>70</y>
+          <width>121</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel
+{
+background:rgba(0,0,0,0.0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>identificatin.png</pixmap>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_28">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>220</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>user.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>428</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>tiee.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_30">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>360</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>flag.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>290</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>sand-clock.png</pixmap>
+      </property>
+     </widget>
+     <zorder>frame_4</zorder>
+     <zorder>label_4</zorder>
+     <zorder>label_5</zorder>
+     <zorder>label_6</zorder>
+     <zorder>nom</zorder>
+     <zorder>age</zorder>
+     <zorder>ville</zorder>
+     <zorder>label_domaine</zorder>
+     <zorder>label_3</zorder>
+     <zorder>label_28</zorder>
+     <zorder>label_29</zorder>
+     <zorder>label_30</zorder>
+     <zorder>label_31</zorder>
+    </widget>
+    <widget class="QFrame" name="frame_5">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>-10</y>
+       <width>981</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame
+{
+border-radius:40px;
+background:rgb(188, 195, 255);
+
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="logout">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>30</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+color:white;
+border-radius:15px;
+background:rgba(200,50,0,0.3);
+font-size:17px;
+}
+QPushButton:hover
+{
+
+color:#333;
+border-radius:15px;
+background:#56655e1;
+
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_32">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>30</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+background:rgb(0, 0, 0,0);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>in.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_11">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>30</y>
+        <width>371</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame
+{
+background:rgba(0,0,0,00.3);
+border-radius:20px;
+
+
+}
+
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLineEdit" name="lieu">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>10</y>
+         <width>81</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit
+{
+background:transparent;
+border:none;
+color:white;
+border-bottom:1px solide #717072;
+font-family:century gothic;
+font-size:13px;
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Lieu</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="domaine">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit
+{
+background:transparent;
+border:none;
+color:white;
+border-bottom:1px solide #717072;
+font-family:century gothic;
+font-size:13px;
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Domaine</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_33">
+       <property name="geometry">
+        <rect>
+         <x>326</x>
+         <y>1</y>
+         <width>31</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{
+background:rgb(0, 0, 0,0);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>magnifiaaer.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="type_stage">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>10</y>
+         <width>101</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit
+{
+background:transparent;
+border:none;
+color:white;
+border-bottom:1px solide #717072;
+font-family:century gothic;
+font-size:13px;
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string> Type de stage</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="recherche">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>10</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+color:white;
+border-radius:15px;
+background:rgba(0,0,0,0.0);
+font-size:17px;
+}
+QPushButton:hover
+{
+
+color:#333;
+border-radius:15px;
+background:#56655e1;
+
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_7">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>961</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <zorder>label_32</zorder>
+     <zorder>logout</zorder>
+     <zorder>frame_11</zorder>
+     <zorder>frame_7</zorder>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>4220</x>
+       <y>190</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+font-family:century gothic;
+font-size:40px;
+}
+QLabel
+{
+background:transparent;
+color:rgb(247, 135, 79);
+}</string>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="text">
+      <string>ACTIA</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>3290</x>
+       <y>160</y>
+       <width>1661</width>
+       <height>1021</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>oumaima.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>930</y>
+       <width>4841</width>
+       <height>1781</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>unsplash.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>4700</x>
+       <y>170</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+font-family:century gothic;
+font-size:40px;
+}
+QLabel
+{
+background:transparent;
+color:rgb(247, 135, 79);
+}</string>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="text">
+      <string>ACTIA</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>3770</x>
+       <y>140</y>
+       <width>1661</width>
+       <height>1021</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>oumaima.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>910</x>
+       <y>910</y>
+       <width>4841</width>
+       <height>1781</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>unsplash.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_6">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>100</y>
+       <width>851</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame
+{
+background:rgb(132, 137, 179);
+border-radius:25px;
+
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_86">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>18</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>Titre:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_87">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>70</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="text">
+       <string>Domaine:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_88">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>214</y>
+        <width>311</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:12px;
+}
+QLabel
+{
+background:transparent;
+color:red;
+font-size:14px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_89">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>120</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>Experience:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_90">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>170</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>Date debut:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_91">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>220</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>Duree:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_92">
+      <property name="geometry">
+       <rect>
+        <x>373</x>
+        <y>70</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="text">
+       <string>Region:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_93">
+      <property name="geometry">
+       <rect>
+        <x>374</x>
+        <y>170</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>Nombre de poste:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_94">
+      <property name="geometry">
+       <rect>
+        <x>374</x>
+        <y>220</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>Type d'offre:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_95">
+      <property name="geometry">
+       <rect>
+        <x>374</x>
+        <y>120</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>Rémunération :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_96">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>260</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>NiveAu d'etude:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_97">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>260</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>Description:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_98">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>20</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string>Pays :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Titre_5">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>20</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Domaine_5">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>70</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Experience_5">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>120</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Date_debut_5">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>170</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="duree_5">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>220</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="niveau_etude_5">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>260</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pays_5">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>20</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="region_5">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>70</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="REMUNERATION_5">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>120</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="nb_poste_5">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>170</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="type_offre_5">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>220</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="lineWidth">
+       <number>-1</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_8">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>340</y>
+        <width>751</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame
+{
+background:rgb(90, 94, 122);
+border-radius:25px;
+
+}
+
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QTextEdit" name="textEdit">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>10</y>
+         <width>701</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_12">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>620</y>
+       <width>261</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame
+{
+background:rgba(0,0,0,00.3);
+border-radius:20px;
+
+
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="suivant">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>10</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+color:white;
+border-radius:15px;
+
+font-size:17px;
+}
+QPushButton:hover
+{
+
+color:#333;
+border-radius:15px;
+background:#56655e1;
+
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Suivant</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="president">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+color:white;
+border-radius:15px;
+
+font-size:17px;
+}
+QPushButton:hover
+{
+
+color:#333;
+border-radius:15px;
+background:#56655e1;
+
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Président</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="num_offre">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>20</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+font-family:century gothic;
+font-size:22px;
+}
+QLabel
+{
+background:transparent;
+color:white;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <zorder>frame_5</zorder>
+    <zorder>frame</zorder>
+    <zorder>label_16</zorder>
+    <zorder>label_8</zorder>
+    <zorder>label_10</zorder>
+    <zorder>label_17</zorder>
+    <zorder>label_13</zorder>
+    <zorder>label_14</zorder>
+    <zorder>frame_6</zorder>
+    <zorder>frame_12</zorder>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

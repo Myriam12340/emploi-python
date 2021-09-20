@@ -1,0 +1,28 @@
+titre:Responsable Sys Informatique
+description:Societe Italienne Totalement Exportatrice specialisee dans le domaine electromecanique avec certification ISO 9001:2015, Recherche pour son siege de Tunis Responsable Systeme Informatique
+niveao_d'etude:Bac Professionnel,BEP,CAP
+domaine:informatique
+nombre_de_poste:1
+region:Ben_Arous
+pays:tunis
+entreprise:MCW sarl
+experience:3 a 5 ans
+remunerationproposee:1200 DT
+date_debut:18/06/2021
+duréé:
+typeoffre:emploi
+
+titre:Ingenieur Genie Informatique
+description:SPX, Editeur  Integrateur de la Suite MS Dynamics 365 de Microsoft.Nous cherchons un stagiaire pour integrer une equipe motivee.
+niveao_d'etude:Bac+5
+domaine:informatique
+nombre_de_poste:2
+region:sfax
+pays:tunis
+entreprise:SPX
+experience:Dubutant
+remunerationproposee:200 Dt 
+date_debut:01/07/2021
+duréé:3mois
+typeoffre:stage
+
